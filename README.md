@@ -12,8 +12,9 @@ Not sure which Mac you have? Apple menu → About This Mac → look for "Chip".
 
 ## Use it
 1. Unzip and start it: **Start OCR Helper.command** (Mac) or **Start OCR Helper.bat** (Windows).
-   - Mac, first time only: right-click the file → Open → Open (the app is not signed by Apple).
-   - Windows: if SmartScreen warns, choose More info → Run anyway.
+   - **Mac, first time only:** macOS will say it "could not verify" the file, because the helper is not signed by Apple. Click **Done** (not "Move to Trash"), then open **System Settings → Privacy & Security**, scroll to the bottom, click **Open Anyway** and enter your password. Double-click the file again and choose **Open**. (On older macOS versions, right-click the file → Open → Open also works.)
+   - Prefer Terminal? Run `xattr -dr com.apple.quarantine "OCR Helper"` in the folder that contains it, then double-click as normal.
+   - **Windows:** if SmartScreen warns, choose **More info → Run anyway**.
 2. Leave the window open while you work.
 3. Open the web app. It shows "Desktop helper found" and uses it automatically.
 
