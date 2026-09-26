@@ -1,6 +1,6 @@
 # OCR Helper — downloads
 
-Optional desktop helper for the **OCR Document Pipeline** web app. It runs text recognition on all of your computer's CPU cores, which makes big documents roughly 3× faster than running inside the browser. The web app finds it automatically.
+Optional desktop helper for **Scriptorium**, the scan-to-text web app. It runs text recognition on all of your computer's CPU cores, which makes big documents roughly 3× faster than running inside the browser. The web app finds it automatically.
 
 | Your computer | Download |
 |---|---|
@@ -16,9 +16,9 @@ Not sure which Mac you have? Apple menu → About This Mac → look for "Chip".
    - Prefer Terminal? Run `xattr -dr com.apple.quarantine "OCR Helper"` in the folder that contains it, then double-click as normal.
    - **Windows:** if SmartScreen warns, choose **More info → Run anyway**.
 2. Leave the window open while you work.
-3. Open the web app. It shows "Desktop helper found" and uses it automatically.
+3. Open Scriptorium. It shows "Desktop helper found" and uses it automatically.
 
 ## Privacy
-The helper only listens on your own computer (127.0.0.1) and only answers the OCR web app. Your documents never leave your computer. Language data is downloaded once on first use and cached in a `.ocr-helper` folder in your home folder.
+The helper only listens on your own computer (127.0.0.1) and only answers the Scriptorium web app. Your documents never leave your computer. Language data is downloaded once on first use and cached in a `.ocr-helper` folder in your home folder.
 
 Nothing is installed: delete the folder to remove it.
